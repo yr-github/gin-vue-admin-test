@@ -1,0 +1,42 @@
+[GIN-VUE-ADMIN]2021/04/20 - 16:05:50.762	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/20 - 16:05:50.764	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/20 - 16:05:50.765	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/20 - 16:05:50.792	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:54	router register success
+[GIN-VUE-ADMIN]2021/04/20 - 16:05:50.793	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/core/server.go:29	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/20 - 16:10:19.291	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:52	前往初始化数据库
+[GIN-VUE-ADMIN]2021/04/20 - 16:13:54.553	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/gorm.go:63	register table success
+[GIN-VUE-ADMIN]2021/04/20 - 16:13:54.556	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/20 - 16:13:54.557	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/20 - 16:13:54.558	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/20 - 16:13:54.584	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:54	router register success
+[GIN-VUE-ADMIN]2021/04/20 - 16:13:54.587	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/core/server.go:29	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/20 - 16:14:36.553	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 16:50:42.734	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/20 - 16:50:42.737	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/20 - 16:50:42.737	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/20 - 16:50:42.738	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/20 - 16:50:42.767	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/20 - 16:50:42.769	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/core/server.go:29	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/20 - 16:55:14.216	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 16:55:14.561	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 16:59:46.446	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:35:11.683	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:35:14.169	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:35:20.310	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:36:36.042	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:36:49.529	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:37:03.312	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:37:29.508	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:37:48.750	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:37:51.036	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:38:21.636	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:38:29.231	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:39:09.390	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:39:35.790	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:39:36.767	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:39:39.998	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:40:09.239	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:44:12.483	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:47:46.258	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:48:04.307	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/20 - 17:48:07.835	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/api/v1/sys_initdb.go:46	数据库无需初始化
