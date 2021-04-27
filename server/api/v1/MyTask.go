@@ -1,13 +1,14 @@
 package v1
 
 import (
+	"encoding/json"
+	"fmt"
 	"gin-vue-admin/global"
 	"gin-vue-admin/model"
 	"gin-vue-admin/model/request"
 	"gin-vue-admin/model/response"
 	"gin-vue-admin/service"
 	"github.com/gin-gonic/gin"
-
 	"go.uber.org/zap"
 )
 
@@ -22,14 +23,19 @@ import (
 func CreateMyTask(c *gin.Context) {
 	var mytask model.MyTask
 	_ = c.ShouldBindJSON(&mytask)
-
-	global.GVA_MQ.Send()
-	if err := service.CreateMyTask(mytask); err != nil {
-        global.GVA_LOG.Error("创建失败!", zap.Any("err", err))
-		response.FailWithMessage("创建失败", c)
-	} else {
-		response.OkWithMessage("创建成功", c)
+	str, err := json.Marshal(mytask)
+	if err != nil {
+		fmt.Println(err)
+		return
 	}
+	global.GVA_MQ.Send(string(str))
+
+	//if err := service.CreateMyTask(mytask); err != nil {
+    //   global.GVA_LOG.Error("创建失败!", zap.Any("err", err))
+	//	response.FailWithMessage("创建失败", c)
+	//} else {
+	//	response.OkWithMessage("创建成功", c)
+	//}
 }
 
 // DeleteMyTask @Tags MyTask

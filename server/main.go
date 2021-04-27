@@ -27,9 +27,7 @@ func main() {
 		defer db.Close()
 	}
 	//简单的全局初始化,后续可以将mq放在global下即可
-	global.GVA_MQ = mq.Rabbit(global.GVA_CONFIG,global.GVA_LOG)
-
-
-	core.RunWindowsServer()
+	global.GVA_MQ = mq.Rabbit(global.GVA_CONFIG,global.GVA_LOG,global.GVA_DB)
 	global.GVA_MQ.Receive()
+	core.RunWindowsServer()
 }
