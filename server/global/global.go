@@ -2,13 +2,12 @@ package global
 
 import (
 	"context"
-	"gin-vue-admin/mq"
-	"go.uber.org/zap"
-	"hash/fnv"
-
+	"crypto/sha1"
 	"gin-vue-admin/config"
+	"gin-vue-admin/mq"
 	"github.com/go-redis/redis/v8"
 	"github.com/spf13/viper"
+	"go.uber.org/zap"
 	"gorm.io/gorm"
 )
 
@@ -23,18 +22,20 @@ var (
 
 func RedisSet(value string)error{
 	ctx:=context.TODO()
-	h := fnv.New32a()
+	h := sha1.New()
 	h.Write([]byte(value))
-	GVA_REDIS.Set(ctx,string(h.Sum32()),value,0)
-	return nil
+	bs := h.Sum(nil)
+	err :=GVA_REDIS.Set(ctx,string(bs),value,0)
+	return err.Err()
 }
 func RedisGet(key string) (string ,error){
 	return key, nil
 }
 func RedisDel(value string) error{
 	ctx:=context.TODO()
-	h := fnv.New32a()
+	h := sha1.New()
 	h.Write([]byte(value))
-	GVA_REDIS.Del(ctx,string(h.Sum32()))
-	return nil
+	bs := h.Sum(nil)
+	err := GVA_REDIS.Del(ctx,string(bs))
+	return err.Err()
 }
