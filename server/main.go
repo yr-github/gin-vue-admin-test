@@ -5,6 +5,9 @@ import (
 	"gin-vue-admin/global"
 	"gin-vue-admin/initialize"
 	"gin-vue-admin/mq"
+	"log"
+	"net/http"
+	_ "net/http/pprof"
 )
 
 // @title Swagger Example API
@@ -29,5 +32,8 @@ func main() {
 	//简单的全局初始化,后续可以将mq放在global下即可
 	global.GVA_MQ = mq.Rabbit(global.GVA_CONFIG,global.GVA_LOG,global.GVA_DB)
 	global.GVA_MQ.Receive()
+	go func() {
+		log.Println(http.ListenAndServe("localhost:6060", nil))
+	}()
 	core.RunWindowsServer()
 }

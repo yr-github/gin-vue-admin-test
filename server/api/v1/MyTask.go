@@ -28,7 +28,18 @@ func CreateMyTask(c *gin.Context) {
 		fmt.Println(err)
 		return
 	}
-	global.GVA_MQ.Send(string(str))
+	err = global.GVA_MQ.Send(string(str))
+
+	if err != nil {
+		response.FailWithMessage("发送mq失败", c)
+		return
+	}
+	err = global.RedisSet(string(str))
+	if err != nil {
+		response.FailWithMessage("插入redis失败", c)
+		return
+	}
+	response.FailWithMessage("创建成功", c)
 
 	//if err := service.CreateMyTask(mytask); err != nil {
     //   global.GVA_LOG.Error("创建失败!", zap.Any("err", err))

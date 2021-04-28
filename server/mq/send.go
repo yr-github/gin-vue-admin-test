@@ -5,7 +5,7 @@ import (
 	"github.com/streadway/amqp"
 )
 
-func (rabbit *RabbitMQ)Send(msg string) {
+func (rabbit *RabbitMQ)Send(msg string) error{
 	err := rabbit.ch.Publish(
 		"",     // exchange
 		rabbit.queue.Name, // routing key
@@ -19,4 +19,5 @@ func (rabbit *RabbitMQ)Send(msg string) {
 		rabbit.log.Info(fmt.Sprintf("%s,%s", "Failed to publish a message", err))
 	}
 	rabbit.log.Info(fmt.Sprintf(" [x] Sent %s", msg))
+	return err
 }

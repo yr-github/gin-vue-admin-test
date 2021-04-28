@@ -33,15 +33,14 @@ func (rabbit *RabbitMQ) Receive()  {
 			rabbit.log.Info(fmt.Sprintf("Received a message: %s", d.Body))
 			var mytask MyTask
 			json.Unmarshal([]byte(d.Body),&mytask)
-
-			if err := rabbit.db.Create(&mytask).Error; err != nil {
+			err := rabbit.db.Create(&mytask).Error
+			if err != nil {
 				rabbit.log.Error("创建失败!", zap.Any("err", err))
 				//response.FailWithMessage("创建失败", c)
 			} else {
 				//response.OkWithMessage("创建成功", c)
 				d.Ack(false)
 			}
-
 		}
 		<-forever
 	}()

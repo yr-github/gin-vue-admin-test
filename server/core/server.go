@@ -13,7 +13,9 @@ type server interface {
 }
 
 func RunWindowsServer() {
-	if global.GVA_CONFIG.System.UseMultipoint {
+	//TODO 这里true的话会导致用户无法登录，还没有看那里
+	//应为 if global.GVA_CONFIG.System.UseMultipoint {
+	if !global.GVA_CONFIG.System.UseMultipoint {
 		// 初始化redis服务
 		initialize.Redis()
 	}

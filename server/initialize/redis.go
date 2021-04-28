@@ -1,8 +1,9 @@
 package initialize
 
 import (
+	"context"
 	"gin-vue-admin/global"
-	"github.com/go-redis/redis"
+	"github.com/go-redis/redis/v8"
 	"go.uber.org/zap"
 )
 
@@ -13,7 +14,8 @@ func Redis() {
 		Password: redisCfg.Password, // no password set
 		DB:       redisCfg.DB,       // use default DB
 	})
-	pong, err := client.Ping().Result()
+	ctx:=context.TODO()
+	pong, err := client.Ping(ctx).Result()
 	if err != nil {
 		global.GVA_LOG.Error("redis connect ping failed, err:", zap.Any("err", err))
 	} else {
