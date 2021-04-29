@@ -28,19 +28,43 @@ func CreateMyTask(c *gin.Context) {
 		fmt.Println(err)
 		return
 	}
-	err = global.GVA_MQ.Send(string(str))
-
+	//插入mq
+	//此处可以指定协议，传递的str包含被执行函数名
+	err = global.GVA_MQ.MqSend(string(str),"hello")
 	if err != nil {
 		response.FailWithMessage("发送mq失败", c)
 		return
 	}
-	err = global.RedisSet(string(str))
+	//插入redis
+	err = global.RedisSetByValue(string(str),0)
 	if err != nil {
 		response.FailWithMessage("插入redis失败", c)
 		return
 	}
 	response.OkWithMessage("创建成功", c)
-	global.RedisDel(string(str))
+
+	////TODO 这种写法每一个数据库操作都要对应一个channel
+	//go func() {
+	//	for mytaskStr := range global.MQTODB{
+	//		var mytask model.MyTask
+	//		json.Unmarshal([]byte(mytaskStr),&mytask)
+	//		//err := global.GVA_DB.Create(&mytask).Error
+	//		err:=service.CreateMyTask(mytask)
+	//		if err != nil {
+	//			global.GVA_LOG.Error("插入数据库失败，重试")
+	//		}else {
+	//			global.DBTOREDIS <- mytaskStr
+	//			return
+	//		}
+	//	}
+	//}()
+	// mq receive 协程 使用 chan传出接收到的信息给插入db，插入db后删除redis
+	// 此处不应该再去启动协程
+	// go receive--buffer管道-->go db---管道->redis del
+
+
+
+
 	//if err := service.CreateMyTask(mytask); err != nil {
     //   global.GVA_LOG.Error("创建失败!", zap.Any("err", err))
 	//	response.FailWithMessage("创建失败", c)

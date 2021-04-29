@@ -1,6 +1,7 @@
 package service
 
 import (
+	"encoding/json"
 	"gin-vue-admin/global"
 	"gin-vue-admin/model"
 	"gin-vue-admin/model/request"
@@ -11,8 +12,22 @@ import (
 //@description: 创建MyTask记录
 //@param: mytask model.MyTask
 //@return: err error
+type MytaskReflect struct {
 
-func CreateMyTask(mytask model.MyTask) (err error) {
+}
+func (MytaskReflect)CreateMyTaskFromMq(sql string) (error) {
+	//TODO 此处有问题，即使传递的内容不对也可以插入全是0的内容
+	//目前仅仅是handle错误
+	var mytask model.MyTask
+	err := json.Unmarshal([]byte(sql), &mytask)
+	if err != nil {
+		global.GVA_LOG.Error("插入数据格式错误！")
+		return err
+	}
+	err = global.GVA_DB.Create(&mytask).Error
+	return err
+}
+func (MytaskReflect)CreateMyTask(mytask model.MyTask) (err error) {
 	err = global.GVA_DB.Create(&mytask).Error
 	return err
 }

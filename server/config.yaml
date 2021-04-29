@@ -87,4 +87,4 @@ rabbit:
 redis:
   addr: 49.234.51.66:6379
   db: 0
-  password: "yuran"
+  password: yuran

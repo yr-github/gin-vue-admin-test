@@ -1,0 +1,236 @@
+[GIN-VUE-ADMIN]2021/04/27 - 08:45:35.478	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 08:45:35.526	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 08:45:35.526	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 08:45:35.526	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 08:45:35.527	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 08:45:35.529	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 08:46:28.213	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:00.947	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:03.002	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:03.002	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:03.002	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:03.002	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:03.003	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:03.004	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:15.496	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:15.497	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:35.323	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:52:35.324	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:04.689	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:04.689	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:06.801	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:06.802	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:08.780	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:08.780	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:10.314	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:10.315	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:12.410	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:12.410	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:13.902	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:13.902	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:50.914	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:50.914	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:58.177	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:58.177	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:59.623	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:34	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 08:55:59.624	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:39	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 09:18:34.278	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 09:18:34.289	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 09:18:34.289	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 09:18:34.289	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 09:18:34.290	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 09:18:34.291	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 09:18:43.528	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 09:18:43.529	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:30	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 09:20:08.383	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 09:20:08.384	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:30	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 09:33:49.163	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 09:33:49.505	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 09:33:49.505	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 09:33:49.505	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 09:33:49.506	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 09:33:49.507	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 09:33:55.946	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 09:33:56.025	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:30	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 10:36:08.920	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 10:36:09.273	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 10:36:09.273	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 10:36:09.273	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 10:36:09.273	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 10:36:09.275	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 10:37:43.399	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 10:37:43.445	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:30	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 10:43:34.955	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 10:43:35.281	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:30	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 10:43:35.281	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 10:43:35.281	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 10:43:35.281	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 10:43:35.282	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 10:43:35.283	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 10:51:09.516	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 10:51:09.977	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:29	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 10:51:09.977	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 10:51:09.977	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 10:51:09.977	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 10:51:09.978	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 10:51:09.979	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 11:14:04.087	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 11:14:04.136	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:29	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 11:14:13.293	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 11:14:34.068	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:29	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 11:14:55.673	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 11:15:19.846	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:29	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 16:17:54.224	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:22	Failed to publish a message,write tcp 172.1.0.22:1739->49.234.51.66:5672: wsasend: An existing connection was forcibly closed by the remote host.
+[GIN-VUE-ADMIN]2021/04/27 - 16:17:54.224	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 16:18:53.020	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:22	Failed to publish a message,Exception (504) Reason: "channel/connection is not open"
+[GIN-VUE-ADMIN]2021/04/27 - 16:18:53.020	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 16:19:03.508	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:22	Failed to publish a message,Exception (504) Reason: "channel/connection is not open"
+[GIN-VUE-ADMIN]2021/04/27 - 16:19:03.508	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 16:20:29.298	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 16:20:29.639	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 16:20:29.639	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 16:20:29.639	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 16:20:29.640	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 16:20:29.641	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 16:21:07.293	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:24	 [x] Sent Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 16:21:07.338	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:29	Received a message: Hello World!
+[GIN-VUE-ADMIN]2021/04/27 - 16:28:26.290	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 16:28:26.628	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 16:28:26.628	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 16:28:26.628	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 16:28:26.628	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 16:28:26.630	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 16:28:45.696	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 16:28:45.760	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:29	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:15:52.037	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:15:52.042	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/initialize.go:30	Failed to connect to RabbitMQ,dial tcp 49.234.51.66:5672: connectex: A socket operation was attempted to an unreachable network.
+[GIN-VUE-ADMIN]2021/04/27 - 17:18:12.581	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:18:25.762	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/initialize.go:30	Failed to connect to RabbitMQ,dial tcp 49.234.51.66:5672: connectex: A socket operation was attempted to an unreachable network.
+[GIN-VUE-ADMIN]2021/04/27 - 17:19:44.810	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:19:46.980	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:19:46.980	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:19:46.980	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:19:46.981	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 17:19:46.982	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:20:21.458	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:20:21.518	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:20:54.137	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:20:54.474	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:21:42.965	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:21:42.965	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:21:42.970	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:25:07.938	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:25:08.381	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:25:36.895	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:25:36.895	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:25:36.895	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:26:25.586	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:26:26.082	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:26:26.082	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:26:26.082	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:26:41.882	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:27:28.591	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:27:28.979	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:27:28.980	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:27:28.980	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:27:34.269	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:27:34.270	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 17:27:34.271	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:27:39.135	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:28:04.908	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:28:05.370	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:28:05.370	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:28:05.370	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:28:15.143	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:28:15.143	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 17:28:15.144	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:28:38.578	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:29:24.863	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:29:45.109	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:29:54.060	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:30:31.501	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":87,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:30:31.560	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":87,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:30:38.665	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:16.928	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:17.268	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:17.268	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:17.268	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:19.976	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:19.977	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:19.978	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:22.287	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:40.552	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:40.981	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:40.982	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:39:40.982	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:40:18.027	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:40:59.759	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 17:40:59.760	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:40:59.763	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:42:38.592	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:42:38.929	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:42:38.929	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:42:38.929	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:42:59.092	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:42:59.093	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 17:42:59.094	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:42:59.097	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:42:59.097	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:05.467	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:05.467	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":87,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:06.191	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:17.972	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.305	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.305	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.305	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.305	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.306	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.306	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.310	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.310	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.314	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.314	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":87,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:43:18.320	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:44:10.003	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:45:27.666	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:45:27.674	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:45:35.955	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:19	Failed to publish a message,Exception (504) Reason: "channel/connection is not open"
+[GIN-VUE-ADMIN]2021/04/27 - 17:45:35.955	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:45:41.666	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:19	Failed to publish a message,Exception (504) Reason: "channel/connection is not open"
+[GIN-VUE-ADMIN]2021/04/27 - 17:45:41.666	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":123,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:45:48.619	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:19	Failed to publish a message,Exception (504) Reason: "channel/connection is not open"
+[GIN-VUE-ADMIN]2021/04/27 - 17:45:48.619	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":65246,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:47:13.996	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:47:14.325	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:47:14.325	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:47:14.326	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:48:43.152	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:48:43.485	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:48:43.485	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:48:43.485	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":57,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:48:47.780	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:48:47.780	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 17:48:47.781	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:48:51.048	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:48:56.946	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":87,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:49:07.494	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 17:49:17.916	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/27 - 17:49:50.162	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 17:49:50.494	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 17:49:50.494	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 17:49:50.494	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 17:49:50.495	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 17:49:50.496	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 17:50:18.835	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":99,"endid":99,"endDepartment":99}
+[GIN-VUE-ADMIN]2021/04/27 - 17:50:18.880	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":99,"endid":99,"endDepartment":99}
+[GIN-VUE-ADMIN]2021/04/27 - 17:50:26.202	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/27 - 18:04:18.966	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/27 - 18:04:19.288	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/27 - 18:04:19.288	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/27 - 18:04:19.288	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/27 - 18:04:19.289	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/27 - 18:04:19.290	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/27 - 18:05:08.389	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/27 - 18:05:23.405	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 18:05:23.448	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/27 - 18:05:50.439	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:38	创建失败!	{"errError": "json: unsupported type: func() time.Time"}

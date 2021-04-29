@@ -1,0 +1,119 @@
+[GIN-VUE-ADMIN]2021/04/28 - 08:44:21.606	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 08:44:22.113	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 08:44:22.113	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 08:44:22.113	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 08:44:22.113	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 08:44:22.114	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 08:44:22.115	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 08:44:42.019	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/28 - 08:44:45.354	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/28 - 08:45:08.596	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/28 - 10:44:25.188	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 10:44:25.238	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 10:48:00.079	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 10:48:00.409	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 10:48:00.409	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 10:48:00.409	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 10:48:00.410	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 10:48:00.411	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 11:07:27.876	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 11:07:44.557	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:20	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 11:07:51.328	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 11:07:51.328	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 11:07:51.328	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 11:07:51.329	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 11:07:51.329	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 11:10:28.381	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/28 - 11:14:42.474	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 11:14:57.510	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:20	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 11:14:57.510	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 11:14:57.510	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 11:14:57.510	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 11:14:57.511	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 11:14:57.512	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 13:38:06.145	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 13:38:06.667	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:20	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 13:38:06.668	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 13:38:06.668	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 13:38:06.668	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 13:38:06.668	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 13:38:06.670	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 14:10:51.431	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 14:11:11.021	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:22	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 14:11:14.106	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 14:11:14.106	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 14:11:14.106	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 14:11:14.107	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 14:11:14.107	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 16:49:38.195	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 16:49:38.649	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:22	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 16:49:38.650	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 16:49:38.650	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 16:49:38.650	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 16:49:38.650	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 16:49:38.652	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 17:45:45.441	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 17:45:45.911	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:22	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 17:45:45.912	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 17:45:45.912	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 17:45:45.912	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 17:45:45.913	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 17:45:45.914	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:30	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 17:45:59.466	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/28 - 17:46:13.033	[31merror[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_user.go:86	设置登录状态失败	{"err": "redis: nil"}
+[GIN-VUE-ADMIN]2021/04/28 - 17:49:12.364	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 17:49:12.818	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:22	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 17:49:12.819	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 17:49:12.819	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 17:49:12.819	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 17:49:12.819	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 17:49:12.821	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:32	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 17:49:45.185	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":33,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 17:49:50.136	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":33,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:00:41.373	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 18:00:41.890	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:22	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 18:00:41.890	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 18:00:41.890	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 18:00:41.890	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 18:00:41.891	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 18:00:41.892	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:32	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 18:00:50.269	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":34,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:01:04.166	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":34,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:01:17.027	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":35,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:19:24.353	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 18:19:24.683	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":35,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:19:24.817	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:22	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 18:19:24.817	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 18:19:24.817	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 18:19:24.817	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 18:19:24.818	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 18:19:24.819	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:32	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 18:19:27.910	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/api/v1/sys_initdb.go:46	数据库无需初始化
+[GIN-VUE-ADMIN]2021/04/28 - 18:19:33.413	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:16.352	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:16.664	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:16.795	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:22	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:16.796	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:16.796	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:16.796	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:16.797	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:16.798	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:32	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:25.671	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:25.714	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:50.889	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:50.938	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:59.848	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":1,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:23:59.893	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":1,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:26:41.042	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/gorm.go:64	register table success
+[GIN-VUE-ADMIN]2021/04/28 - 18:26:41.486	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/redis.go:22	redis connect ping response:	{"pong": "PONG"}
+[GIN-VUE-ADMIN]2021/04/28 - 18:26:41.487	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:21	use middleware logger
+[GIN-VUE-ADMIN]2021/04/28 - 18:26:41.487	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:24	use middleware cors
+[GIN-VUE-ADMIN]2021/04/28 - 18:26:41.487	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:26	register swagger handler
+[GIN-VUE-ADMIN]2021/04/28 - 18:26:41.487	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/initialize/router.go:56	router register success
+[GIN-VUE-ADMIN]2021/04/28 - 18:26:41.488	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/core/server.go:32	server run success on 	{"address": ":8888"}
+[GIN-VUE-ADMIN]2021/04/28 - 18:26:45.673	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":1,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:26:45.718	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":1,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:27:17.542	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:27:17.587	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":0,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:27:38.700	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/send.go:21	 [x] Sent {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":33,"endid":0,"endDepartment":0}
+[GIN-VUE-ADMIN]2021/04/28 - 18:27:50.397	[34minfo[0m	C:/Users/adele_yr/go/src/gin-vue-admin/server/mq/receive.go:33	Received a message: {"ID":0,"CreatedAt":"0001-01-01T00:00:00Z","UpdatedAt":"0001-01-01T00:00:00Z","userid":33,"endid":0,"endDepartment":0}
