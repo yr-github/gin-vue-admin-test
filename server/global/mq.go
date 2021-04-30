@@ -7,15 +7,15 @@ import (
 )
 
 type RabbitMQ struct {
-	conn *amqp.Connection
-	ch *amqp.Channel
-	queue   amqp.Queue
+	conn  *amqp.Connection
+	ch    *amqp.Channel
+	queue amqp.Queue
 }
 
-func Rabbit()  *RabbitMQ {
+func Rabbit(queue string, durable bool, autoDelete bool) *RabbitMQ {
 	rabbit := &RabbitMQ{}
 	rabbitConfig := GVA_CONFIG.Rabbit
-	url :=fmt.Sprintf("amqp://%s:%s@%s/",rabbitConfig.User,rabbitConfig.Password,rabbitConfig.Addr)
+	url := fmt.Sprintf("amqp://%s:%s@%s/", rabbitConfig.User, rabbitConfig.Password, rabbitConfig.Addr)
 	var err error
 	rabbit.conn, err = amqp.Dial(url)
 	if err != nil {
@@ -28,25 +28,25 @@ func Rabbit()  *RabbitMQ {
 	}
 	//	defer ch.Close()
 	rabbit.queue, err = rabbit.ch.QueueDeclare(
-		"hello", // name
-		false,   // durable
-		false,   // delete when unused
-		false,   // exclusive
-		false,   // no-wait
-		nil,     // arguments
+		queue,      // name
+		durable,    // durable
+		autoDelete, // delete when unused
+		false,      // exclusive
+		false,      // no-wait
+		nil,        // arguments
 	)
-	if err!=nil{
+	if err != nil {
 		GVA_LOG.Info(fmt.Sprintf("%s,%s", "Failed to declare a queue", err))
 	}
 	return rabbit
 }
 
-func (rabbit *RabbitMQ)MqSend(msg string,queue string) error{
+func (rabbit *RabbitMQ) MqSend(msg string, queue string) error {
 	err := rabbit.ch.Publish(
-		"",     // exchange
+		"",    // exchange
 		queue, // routing key
-		false,  // mandatory
-		false,  // immediate
+		false, // mandatory
+		false, // immediate
 		amqp.Publishing{
 			ContentType: "text/plain",
 			Body:        []byte(msg),
@@ -62,14 +62,14 @@ func (rabbit *RabbitMQ) MqReceive(queuename string) {
 	go func() {
 		msgs, err := rabbit.ch.Consume(
 			queuename, // queue
-			"",     // consumer
-			false,   // auto-ack
-			false,  // exclusive
-			false,  // no-local
-			false,  // no-wait
-			nil,    // args
+			"",        // consumer
+			false,     // auto-ack
+			false,     // exclusive
+			false,     // no-local
+			false,     // no-wait
+			nil,       // args
 		)
-		if err!=nil{
+		if err != nil {
 			GVA_LOG.Info(fmt.Sprintf("%s,%s", "Failed to register a consumer", err))
 		}
 		for d := range msgs {
@@ -82,7 +82,7 @@ func (rabbit *RabbitMQ) MqReceive(queuename string) {
 					//TODO error debug变为了逆序，未查到原因
 					GVA_LOG.Error("rabbit ACK失败!", zap.Any("err", err))
 				} else {
-					//传值 这里传过去的值
+					//传值 这里传过去的值会被mqt2db自动处理找到可执行函数
 					MQTODB <- string(d.Body)
 				}
 			}
@@ -92,5 +92,3 @@ func (rabbit *RabbitMQ) MqReceive(queuename string) {
 	//是因为为了防止main退出，而我们的程序不需要。
 	//<-make(chan bool)
 }
-
-

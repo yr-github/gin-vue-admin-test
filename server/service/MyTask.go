@@ -13,11 +13,10 @@ import (
 //@param: mytask model.MyTask
 //@return: err error
 type MytaskReflect struct {
-
 }
-func (MytaskReflect)CreateMyTaskFromMq(sql string) (error) {
-	//TODO 此处有问题，即使传递的内容不对也可以插入全是0的内容
-	//目前仅仅是handle错误
+
+func (MytaskReflect) CreateMyTaskFromMq(sql string) error {
+	//目前仅仅是handle错误 出了错误如何处理是个问题
 	var mytask model.MyTask
 	err := json.Unmarshal([]byte(sql), &mytask)
 	if err != nil {
@@ -25,9 +24,17 @@ func (MytaskReflect)CreateMyTaskFromMq(sql string) (error) {
 		return err
 	}
 	err = global.GVA_DB.Create(&mytask).Error
+	if err != nil {
+		global.GVA_LOG.Error("数据库创建错误！")
+		//此处数据库错误其实可以使用global.MQTODB <- handle(sql)
+		//handle中将当前函数名与sql按之前的规则组合即可
+		//但最好是传递到mq而不是直接调用 MQTODB
+		return err
+	}
+	global.DBTOREDIS <- sql
 	return err
 }
-func (MytaskReflect)CreateMyTask(mytask model.MyTask) (err error) {
+func (MytaskReflect) CreateMyTask(mytask model.MyTask) (err error) {
 	err = global.GVA_DB.Create(&mytask).Error
 	return err
 }
@@ -50,7 +57,7 @@ func DeleteMyTask(mytask model.MyTask) (err error) {
 //@return: err error
 
 func DeleteMyTaskByIds(ids request.IdsReq) (err error) {
-	err = global.GVA_DB.Delete(&[]model.MyTask{},"id in ?",ids.Ids).Error
+	err = global.GVA_DB.Delete(&[]model.MyTask{}, "id in ?", ids.Ids).Error
 	return err
 }
 
@@ -85,10 +92,10 @@ func GetMyTask(id uint) (err error, mytask model.MyTask) {
 func GetMyTaskInfoList(info request.MyTaskSearch) (err error, list interface{}, total int64) {
 	limit := info.PageSize
 	offset := info.PageSize * (info.Page - 1)
-    // 创建db
+	// 创建db
 	db := global.GVA_DB.Model(&model.MyTask{})
-    var mytasks []model.MyTask
-	if	info.UserId != "" {
+	var mytasks []model.MyTask
+	if info.UserId != "" {
 		db = db.Where("userid = ?", info.UserId)
 	}
 	err = db.Count(&total).Error

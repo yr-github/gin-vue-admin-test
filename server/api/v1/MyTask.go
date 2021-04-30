@@ -30,13 +30,14 @@ func CreateMyTask(c *gin.Context) {
 	}
 	//插入mq
 	//此处可以指定协议，传递的str包含被执行函数名
-	err = global.GVA_MQ.MqSend(string(str),"hello")
+	//queue一定要提前创建不然慢,因为确定queue是否declare为网络操作
+	err = global.GVA_MQ.MqSend(string(str), "MyTask")
 	if err != nil {
 		response.FailWithMessage("发送mq失败", c)
 		return
 	}
 	//插入redis
-	err = global.RedisSetByValue(string(str),0)
+	err = global.RedisSetByValue(string(str), 0)
 	if err != nil {
 		response.FailWithMessage("插入redis失败", c)
 		return
@@ -62,11 +63,8 @@ func CreateMyTask(c *gin.Context) {
 	// 此处不应该再去启动协程
 	// go receive--buffer管道-->go db---管道->redis del
 
-
-
-
 	//if err := service.CreateMyTask(mytask); err != nil {
-    //   global.GVA_LOG.Error("创建失败!", zap.Any("err", err))
+	//   global.GVA_LOG.Error("创建失败!", zap.Any("err", err))
 	//	response.FailWithMessage("创建失败", c)
 	//} else {
 	//	response.OkWithMessage("创建成功", c)
@@ -85,7 +83,7 @@ func DeleteMyTask(c *gin.Context) {
 	var mytask model.MyTask
 	_ = c.ShouldBindJSON(&mytask)
 	if err := service.DeleteMyTask(mytask); err != nil {
-        global.GVA_LOG.Error("删除失败!", zap.Any("err", err))
+		global.GVA_LOG.Error("删除失败!", zap.Any("err", err))
 		response.FailWithMessage("删除失败", c)
 	} else {
 		response.OkWithMessage("删除成功", c)
@@ -102,9 +100,9 @@ func DeleteMyTask(c *gin.Context) {
 // @Router /mytask/deleteMyTaskByIds [delete]
 func DeleteMyTaskByIds(c *gin.Context) {
 	var IDS request.IdsReq
-    _ = c.ShouldBindJSON(&IDS)
+	_ = c.ShouldBindJSON(&IDS)
 	if err := service.DeleteMyTaskByIds(IDS); err != nil {
-        global.GVA_LOG.Error("批量删除失败!", zap.Any("err", err))
+		global.GVA_LOG.Error("批量删除失败!", zap.Any("err", err))
 		response.FailWithMessage("批量删除失败", c)
 	} else {
 		response.OkWithMessage("批量删除成功", c)
@@ -123,7 +121,7 @@ func UpdateMyTask(c *gin.Context) {
 	var mytask model.MyTask
 	_ = c.ShouldBindJSON(&mytask)
 	if err := service.UpdateMyTask(mytask); err != nil {
-        global.GVA_LOG.Error("更新失败!", zap.Any("err", err))
+		global.GVA_LOG.Error("更新失败!", zap.Any("err", err))
 		response.FailWithMessage("更新失败", c)
 	} else {
 		response.OkWithMessage("更新成功", c)
@@ -142,7 +140,7 @@ func FindMyTask(c *gin.Context) {
 	var mytask model.MyTask
 	_ = c.ShouldBindQuery(&mytask)
 	if err, remytask := service.GetMyTask(mytask.ID); err != nil {
-        global.GVA_LOG.Error("查询失败!", zap.Any("err", err))
+		global.GVA_LOG.Error("查询失败!", zap.Any("err", err))
 		response.FailWithMessage("查询失败", c)
 	} else {
 		response.OkWithData(gin.H{"remytask": remytask}, c)
@@ -161,14 +159,14 @@ func GetMyTaskList(c *gin.Context) {
 	var pageInfo request.MyTaskSearch
 	_ = c.ShouldBindQuery(&pageInfo)
 	if err, list, total := service.GetMyTaskInfoList(pageInfo); err != nil {
-	    global.GVA_LOG.Error("获取失败", zap.Any("err", err))
-        response.FailWithMessage("获取失败", c)
-    } else {
-        response.OkWithDetailed(response.PageResult{
-            List:     list,
-            Total:    total,
-            Page:     pageInfo.Page,
-            PageSize: pageInfo.PageSize,
-        }, "获取成功", c)
-    }
+		global.GVA_LOG.Error("获取失败", zap.Any("err", err))
+		response.FailWithMessage("获取失败", c)
+	} else {
+		response.OkWithDetailed(response.PageResult{
+			List:     list,
+			Total:    total,
+			Page:     pageInfo.Page,
+			PageSize: pageInfo.PageSize,
+		}, "获取成功", c)
+	}
 }
